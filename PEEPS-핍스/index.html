@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PEEPS 핍스 · 기획전 성과 리포트</title>
+<meta property="og:title" content="PEEPS 핍스 · 기획전 성과 리포트">
+<meta property="og:description" content="캐치테이블 벚꽃 혜택기획전 기획전 성과를 확인하세요">
+<link rel="preconnect" href="https://cdn.jsdelivr.net"><link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Pretendard Variable','Pretendard',-apple-system,BlinkMacSystemFont,sans-serif;background:#f0f4f8;min-height:100vh;letter-spacing:-0.3px}
+.wrap{max-width:520px;margin:0 auto;padding:0 0 40px}
+.header{background:linear-gradient(-22.2deg,rgb(0,26,48) 15.15%,rgb(0,53,96) 67.99%,rgb(31,114,175) 124.11%);color:#fff;padding:36px 28px 28px;border-radius:0 0 20px 20px}
+.logo{font-size:11px;letter-spacing:3px;color:#9fb1bd;font-weight:600;margin-bottom:12px}
+.report-tag{display:inline-block;background:#3d8df5;color:#fff;font-size:11px;font-weight:700;padding:4px 12px;border-radius:40px;margin-bottom:14px;letter-spacing:0}
+.store-name{font-size:24px;font-weight:800;line-height:1.15;margin-bottom:16px;letter-spacing:-0.5px}
+.event-info{display:flex;flex-direction:column;gap:8px}
+.event-row{font-size:13px;color:rgba(255,255,255,0.6);display:flex;align-items:center}
+.event-row .elabel{color:#9fb1bd;font-size:12px;min-width:100px;flex-shrink:0;font-weight:500}
+.event-row .evalue{color:#fff;font-weight:600}
+.sec-title{font-size:13px;color:#7a7a7a;font-weight:600;margin:28px 20px 14px;letter-spacing:-0.07px}
+.ic{background:#fff;border-radius:16px;margin:0 16px 14px;padding:24px 24px 20px;box-shadow:0 4px 32px rgba(0,40,80,0.08)}
+.ic-top{display:flex;align-items:center;gap:6px;margin-bottom:4px}
+.ic-icon{font-size:16px}
+.ic-label{font-size:13px;color:#7a7a7a;font-weight:600}
+.ic-numbers{display:flex;align-items:baseline;gap:8px;margin-bottom:20px}
+.ic-val{font-size:36px;font-weight:800;color:#002d4e;line-height:1;letter-spacing:-0.5px}
+.ic-unit{font-size:14px;color:#9fb1bd;font-weight:500}
+.ic-change{font-size:13px;color:#3d8df5;font-weight:700}
+.chart-box{background:#f5f8fb;border-radius:12px;padding:20px 20px 16px;margin-bottom:16px;overflow:visible}
+.chart-area{display:flex;align-items:flex-end;justify-content:center;gap:4px}
+.bar-col{display:flex;flex-direction:column;align-items:center}
+.bar-num{font-size:11px;font-weight:700;margin-bottom:4px;text-align:center}
+.bar-num.pn{color:#9fb1bd}
+.bar-num.cn{color:#3d8df5}
+.bar{width:60px;border-radius:8px 8px 4px 4px;min-height:8px}
+.bp{background:#dce3e8}
+.bc{background:linear-gradient(180deg,#3d8df5,#6aafff)}
+.bar-lbl{font-size:10px;color:#7a7a7a;margin-top:8px;text-align:center;line-height:1.3;height:28px;display:flex;align-items:flex-end;justify-content:center}
+.bar-col.prev-col{position:relative}
+.bub{position:absolute;bottom:100%;left:50%;transform:translateX(-50%);margin-bottom:8px;background:#002d4e;color:#fff;font-size:13px;font-weight:800;padding:4px 12px;border-radius:40px;white-space:nowrap;box-shadow:0 2px 8px rgba(0,45,78,0.2);z-index:10}
+.bub::after{content:'';position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid #002d4e}
+.ic-insight{font-size:13px;color:#555;line-height:1.6;border-top:1px solid #dce3e8;padding-top:14px}
+.ic-insight strong{color:#3d8df5;font-weight:700}
+.ic-note{font-size:11px;color:#9fb1bd;margin-top:10px;line-height:1.5}
+.cta{background:#003560;border-radius:16px;margin:0 16px 14px;padding:28px 24px;text-align:center}
+.cta p{color:#9fb1bd;font-size:13px;margin-bottom:4px}
+.cta-btn{display:inline-block;margin-top:14px;background:#3d8df5;color:#fff;padding:12px 28px;border-radius:8px;font-size:14px;font-weight:700;text-decoration:none;transition:background 0.3s ease}
+.cta-btn:hover{background:#5a9ff7}
+.footer{text-align:center;font-size:11px;color:#9fb1bd;padding:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <div class="logo">CATCHTABLE</div>
+    <div class="report-tag">기획전 성과 리포트</div>
+    <div class="store-name">PEEPS 핍스</div>
+    <div class="event-info">
+      <div class="event-row"><span class="elabel">참여기획전명</span><span class="evalue">벚꽃 혜택기획전</span></div>
+      <div class="event-row"><span class="elabel">기획전 진행기간</span><span class="evalue">2026.03.09 ~ 2026.04.17</span></div>
+    </div>
+  </div>
+  <div class="sec-title">지표별 분석</div>
+    <div class="ic">
+      <div class="ic-top"><span class="ic-icon">👀</span><span class="ic-label">매장 노출수</span></div>
+      <div class="ic-numbers"><span class="ic-val">52,949</span><span class="ic-unit">회</span><span class="ic-change">▲ +22,740</span></div>
+      <div class="chart-box">
+        <div style="padding-top:36px">
+          <div class="chart-area">
+            <div class="bar-col prev-col">
+              <div class="bub">1.8배</div>
+              <div class="bar-num pn">30,209</div>
+              <div class="bar bp" style="height:51px"></div>
+              <div class="bar-lbl">진행 이전</div>
+            </div>
+            <div class="bar-col">
+              <div class="bar-num cn">52,949</div>
+              <div class="bar bc" style="height:90px"></div>
+              <div class="bar-lbl">기획전<br>진행기간</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ic-insight">매장 노출이 <strong>22,740회</strong> 늘었어요. 더 많은 고객에게 매장이 보여지고 있어요.</div>
+    </div>
+    <div class="ic">
+      <div class="ic-top"><span class="ic-icon">👆</span><span class="ic-label">매장 클릭수</span></div>
+      <div class="ic-numbers"><span class="ic-val">3,184</span><span class="ic-unit">회</span><span class="ic-change">▲ +1,006</span></div>
+      <div class="chart-box">
+        <div style="padding-top:36px">
+          <div class="chart-area">
+            <div class="bar-col prev-col">
+              <div class="bub">+46%</div>
+              <div class="bar-num pn">2,178</div>
+              <div class="bar bp" style="height:62px"></div>
+              <div class="bar-lbl">진행 이전</div>
+            </div>
+            <div class="bar-col">
+              <div class="bar-num cn">3,184</div>
+              <div class="bar bc" style="height:90px"></div>
+              <div class="bar-lbl">기획전<br>진행기간</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ic-insight">매장 클릭이 <strong>1,006회</strong> 늘었어요. 매장에 대한 관심이 커지고 있어요.</div>
+    </div>
+    <div class="ic">
+      <div class="ic-top"><span class="ic-icon">🔖</span><span class="ic-label">찜수</span></div>
+      <div class="ic-numbers"><span class="ic-val">461</span><span class="ic-unit">명</span><span class="ic-change">▲ +208</span></div>
+      <div class="chart-box">
+        <div style="padding-top:36px">
+          <div class="chart-area">
+            <div class="bar-col prev-col">
+              <div class="bub">1.8배</div>
+              <div class="bar-num pn">253</div>
+              <div class="bar bp" style="height:49px"></div>
+              <div class="bar-lbl">진행 이전</div>
+            </div>
+            <div class="bar-col">
+              <div class="bar-num cn">461</div>
+              <div class="bar bc" style="height:90px"></div>
+              <div class="bar-lbl">기획전<br>진행기간</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ic-insight">찜수가 <strong>208명</strong> 늘었어요. 재방문 의향이 높아지고 있어요.</div>
+    </div>
+  <div class="cta">
+    <p style="color:#ccc">혜택 제공하고 혜택기획전의 효과를 계속 누리고 싶으시다면?</p>
+    <a class="cta-btn" href="https://go.catchtable.link/3ITYLNW" target="_blank">다음 혜택 기획전 확인하기 →</a>
+  </div>
+  <div class="footer">본 리포트는 캐치테이블이 제공하는 매장 성장 분석입니다.</div>
+</div>
+</body>
+</html>
